@@ -35,8 +35,8 @@ $(function () {
 			$(".mob-nav-a2").attr('href', '').css({ 'cursor': 'pointer', 'pointer-events': 'stroke' });
 			$(".mob-nav-a1, .mob-nav-a3").attr('href', '').css({ 'cursor': 'pointer', 'pointer-events': 'none' });
 			$(".mob-sub-drop_nav-item-1, .mob-sub-drop_nav-item-3").css({ 'display': 'none'});
-			$(".mob-sub-nav-a1").attr('href', '').css({ 'cursor': 'pointer', 'pointer-events': 'none' });
 		});
+		$(".mob-sub-nav-a1").attr('href', '').css({ 'cursor': 'pointer', 'pointer-events': 'none' });
 		$('.mobile-in-sub-drop_nav').click(function() {
 			$(".mob-sub-nav-a1").attr('href', '').css({ 'cursor': 'pointer', 'pointer-events': 'stroke' });
 			$(this).css({ 'height': '145px'});
