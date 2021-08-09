@@ -313,7 +313,9 @@ header .svg-inline--fa.fa-w-10 {
     transform-origin: top center;
     animation: rotateX 300ms 180ms ease-in-out forwards;
 }
-
+.mob-sub-nav-a1 .svg-inline--fa.fa-w-10{
+    display: none;
+}
 /* @-moz-keyframes rotateX {
     0% {
       opacity: 0;
@@ -871,6 +873,16 @@ color: #fff;
     
     .sub-dropdown_menu li {
         display: block;
+    }
+    .mob-sub-nav-a1 {
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .mob-sub-nav-a1 .svg-inline--fa.fa-w-10 {
+        display: inherit;
+    }
+    .mobile-in-sub-drop_nav .svg-inline--fa.fa-chevron-right.fa-w-10{
+        display: none;
     }
 }
 
