@@ -40,7 +40,7 @@ body {
 }
 #site-logo {
     float: left;
-    margin: 22px 10px
+    margin: 21px 10px
 }
 a {
     color: #6897e5;
@@ -313,6 +313,7 @@ header .svg-inline--fa.fa-w-10 {
     transform-origin: top center;
     animation: rotateX 300ms 180ms ease-in-out forwards;
 }
+
 /* @-moz-keyframes rotateX {
     0% {
       opacity: 0;
@@ -615,7 +616,7 @@ color: #fff;
 }
 
 /* Media Query For different screens */
-@media (min-width:282px) and (max-width:479px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media (min-width:282px) and (max-width:480px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 .footer-content {
     margin-left: auto;
     margin-right: auto;
@@ -624,7 +625,7 @@ color: #fff;
     position: relative;
 }
 }
-@media (min-width:480px) and (max-width:599px)  { /* smartphones, Android phones, landscape iPhone */
+@media (min-width:480px) and (max-width:600px)  { /* smartphones, Android phones, landscape iPhone */
 .footer-content {
     margin-left: auto;
     margin-right: auto;
@@ -642,17 +643,6 @@ color: #fff;
     position: relative;
 }
 }
-@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
-
-}
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
-
-}
-@media (min-width:1281px) { /* hi-res laptops and desktops */
-
-}
-
-
 
 
 @media (min-width: 760px) {
@@ -858,6 +848,30 @@ color: #fff;
       order: -1;
     } */
     
+    .slick-arrow.slick-prev:hover, .slick-arrow.slick-next:hover {
+        opacity: 0.2;
+    }
+
+    /* dropdown sub menu */
+    .dropdown_menu .sub-dropdown_menu {
+        display: none;
+    }
+    /* .dropdown_menu .mobile-in-sub-drop_nav {
+        height: 145px;
+    } */
+    /* .dropdown_item-1:hover ul {
+        left: 0;
+        top: 37px;
+        padding-left: 16px;
+    } */
+    
+    .mobile-in-sub-drop_nav:hover .sub-dropdown_menu {
+        display: block;
+    }
+    
+    .sub-dropdown_menu li {
+        display: block;
+    }
 }
 
 .menu-item .nav-bar-ul{
@@ -872,5 +886,20 @@ color: #fff;
         display: inline-flex;
         width: 100%;
     }
+    
+
+}
+
+
+
+
+/* size */
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */
 
 }
