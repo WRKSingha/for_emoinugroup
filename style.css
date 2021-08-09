@@ -316,6 +316,11 @@ header .svg-inline--fa.fa-w-10 {
 .mob-sub-nav-a1 .svg-inline--fa.fa-w-10{
     display: none;
 }
+@media only screen and (min-width: 801px) {
+    .header-wrapper.sticky-header .dropdown_menu a{
+        color: #747474;
+    }
+}
 /* @-moz-keyframes rotateX {
     0% {
       opacity: 0;
