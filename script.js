@@ -4,7 +4,7 @@ $(function () {
 		var winTop = $(window).scrollTop();
 		var winWeidth = $(window).width();
 		if (winWeidth > 801) {
-			if (winTop >= 90) {
+			if (winTop >= 82.8) {
 				$(".header-wrapper").addClass("sticky-header");
 			} else {
 				$(".header-wrapper").removeClass("sticky-header");
